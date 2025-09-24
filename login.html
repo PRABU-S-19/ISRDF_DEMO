@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ISRDF India</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/png" href="isrdfLogo.webp">
+</head>
+<body>
+    <header class="site-header-login" role="banner">
+        <div class="nav container">
+            <div class="brand">
+                <div class="logo">
+                    <img src="isrdf logo.webp" alt="ISRDF India Logo" />
+                </div>
+                <h1>ISRDF India</h1>
+            </div>
+            <a href="index.html" class="btn-back"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        </div>
+    </header>
+
+    <main class="login-main container fade-up">
+        <section class="login-section">
+            <div class="login-card">
+                <h2 class="card-heading">Welcome Back</h2>
+                <p class="card-intro">Log in to access your account and manage your profile.</p>
+
+                <div class="login-form-wrapper">
+                    <form action="#" method="POST" class="login-form">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="form-actions">
+                            <a href="#" class="forgot-password">Forgot Password?</a>
+                            <button type="submit" class="btn btn-login">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="signup-link">
+                    <p>Don't have an account? <a href="#">Sign up now</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
