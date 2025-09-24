@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to ISRDF</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="donate.css">
+    <link rel="icon" type="image/png" href="isrdfLogo.webp">
+</head>
+<body>
+    <header class="site-header-donate" role="banner">
+        <div class="nav container">
+            <div class="brand">
+                <div class="logo">
+                    <img src="isrdf logo.webp" alt="ISRDF India Logo" />
+                </div>
+                <h1>ISRDF India</h1>
+            </div>
+            <a href="index.html" class="btn-back"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        </div>
+    </header>
+
+    <main class="donate-main container fade-up">
+        <section class="donate-section">
+            <div class="donate-card">
+                <h2 class="card-heading">Support Our Cause</h2>
+                <p class="card-intro">Your contribution helps us continue our mission of research and development for a better society. Every donation, big or small, makes a difference.</p>
+                
+                <div class="donation-options">
+                    <div class="donation-option">
+                        <i class="fas fa-hand-holding-heart icon-accent-1"></i>
+                        <p>A gift of any amount helps provide immediate support for our ongoing projects.</p>
+                    </div>
+                    <div class="donation-option">
+                        <i class="fas fa-heart icon-accent-2"></i>
+                        <p>Become a recurring donor and provide stable, long-term support for our foundation.</p>
+                    </div>
+                </div>
+
+                <div class="donation-form-wrapper">
+                    <h3>Make a Donation</h3>
+                    <form action="#" method="POST" class="donation-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="amount">Donation Amount (INR)</label>
+                            <input type="number" id="amount" name="amount" min="10" required>
+                        </div>
+                        <a href="#" id="donateButton" class="btn btn-donate">Donate Now</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
