@@ -163,7 +163,7 @@ nav.desktop {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 .hero-content {
     display: grid;
@@ -720,3 +720,4 @@ footer a:hover {
 .video-player .close-player:hover {
   background: rgba(0,0,0,0.8);
 }
+
