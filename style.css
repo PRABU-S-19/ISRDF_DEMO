@@ -682,7 +682,7 @@ footer a:hover {
   background: var(--accent-2);
 }
 
-/* Floating YouTube Player */
+/* Floating YouTube Player (nocookie version) */
 .video-player {
   position: fixed;
   bottom: 20px;
@@ -693,7 +693,7 @@ footer a:hover {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-  z-index: 2000; /* stays above other elements */
+  z-index: 2000;
 }
 
 .video-player iframe {
@@ -701,4 +701,22 @@ footer a:hover {
   height: 100%;
   border: none;
   display: block;
+}
+
+/* Close button */
+.video-player .close-player {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.video-player .close-player:hover {
+  background: rgba(0,0,0,0.8);
 }
