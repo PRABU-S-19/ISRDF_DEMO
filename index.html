@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="isrdfWebPg.jpeg">
+    <link rel="icon" type="image/png" href="isrdfLogo.webp">
 </head>
 <body>
     <div id="progress" aria-hidden="true"></div>
@@ -16,8 +16,8 @@
         <div class="nav container">
             <div class="brand" aria-hidden="false">
                 <div class="logo" aria-hidden="true">
-    <img src="isrdfLogo.jpeg" alt="ISRDF India Logo" />
-</div>
+                    <img src="isrdf logo.webp" alt="ISRDF India Logo" />
+                </div>
                 <div>
                     <h1>ISRDF India</h1>
                     <p style="font-size:12px;margin-top:4px;color:var(--muted)">Thiran Digital (Hub) Academy</p>
@@ -34,43 +34,64 @@
             </nav>
             <div class="cta">
                 <button class="btn btn-ghost" onclick="document.location='#'">Login</button>
-                <button class="btn btn-primary">Donate Now</button>
+                <a href="donate.html" class="btn btn-primary">Donate Now</a>
             </div>
         </div>
     </header>
 
- <section id="hero" class="hero">
-    <div class="hero-content container">
-        <div class="hero-left">
-            <span class="eyebrow">Since 2014 • Registered in 2022</span>
-            <h1 id="hero-title" class="fade-up">Creating Meaningful, Lasting Change in Society</h1>
-            <p class="fade-up stagger-1">The International Social Research & Development Foundation (ISRDF) brings together research, social innovation, and community engagement to address today's most pressing challenges.</p>
-            <div class="actions fade-up stagger-2">
-                <button class="pill pill-primary" onclick="document.getElementById('programs').scrollIntoView({behavior:'smooth'})">Our Programs</button>
-                <button class="pill pill-outline" onclick="document.getElementById('objectives').scrollIntoView({behavior:'smooth'})">Our Objectives</button>
+    <section id="hero" class="hero">
+        <div class="hero-content container">
+            <div class="hero-left">
+                <span class="eyebrow">Since 2014 • Registered in 2022</span>
+                <h1 id="hero-title" class="fade-up">Creating Meaningful, Lasting Change in Society</h1>
+                <p class="fade-up stagger-1">The International Social Research & Development Foundation (ISRDF) brings together research, social innovation, and community engagement to address today's most pressing challenges.</p>
+                <div class="actions fade-up stagger-2">
+                    <button class="pill pill-primary" onclick="document.getElementById('programs').scrollIntoView({behavior:'smooth'})">Our Programs</button>
+                    <button class="pill pill-outline" onclick="document.getElementById('objectives').scrollIntoView({behavior:'smooth'})">Our Objectives</button>
+                </div>
+                <div class="stats fade-up stagger-3">
+                    <div class="stat">
+                        <div class="n">400+</div>
+                        <div class="t">Students Trained</div>
+                    </div>
+                    <div class="stat">
+                        <div class="n">20+</div>
+                        <div class="t">Community Events</div>
+                    </div>
+                    <div class="stat">
+                        <div class="n">10+</div>
+                        <div class="t">Research Domains</div>
+                    </div>
+                </div>
             </div>
-            <div class="stats fade-up stagger-3">
-                <div class="stat">
-                    <div class="n">400+</div>
-                    <div class="t">Students Trained</div>
-                </div>
-                <div class="stat">
-                    <div class="n">20+</div>
-                    <div class="t">Community Events</div>
-                </div>
-                <div class="stat">
-                    <div class="n">10+</div>
-                    <div class="t">Research Domains</div>
-                </div>
-            </div>
-        </div>
 
-        <aside class="hero-figure fade-up stagger-4" aria-hidden="true">
-            <img src="WhatsApp Image 2025-09-21 at 12.25.25 AM.jpeg" loading="lazy" />
-            <div style="font-weight:700;color:var(--muted);font-size:13px">Community Learning — Thiran Digital</div>
-        </aside>
+            <aside class="hero-figure fade-up stagger-4" aria-hidden="true">
+                <img src="bgimg2.webp" loading="lazy" />
+                <div style="font-weight:700;color:var(--muted);font-size:13px">Community Learning — Thiran Digital</div>
+            </aside>
+        </div>
+    </section>
+    <section id="gallery">
+  <h2>Our Gallery</h2>
+  <div class="slider">
+    <div class="slides">
+      <img src="C:\Users\ssure\OneDrive\Desktop\Prabu ISRDF\bgImg.webp" alt="Gallery Image 1">
+      <img src="C:\Users\ssure\OneDrive\Desktop\Prabu ISRDF\bgimg2.webp" alt="Gallery Image 2">
+      <img src="C:\Users\ssure\OneDrive\Desktop\Prabu ISRDF\isrdfWebPg.webp" alt="Gallery Image 3">
+      <img src="C:\Users\ssure\OneDrive\Desktop\Prabu ISRDF\isrdf logo.webp" alt="Gallery Image 4">
     </div>
+
+    <!-- Navigation buttons -->
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="dots"></div>
+  </div>
 </section>
+
+
+    
     <section id="about">
         <div class="container">
             <h2>About ISRDF</h2>
@@ -91,32 +112,21 @@
             </div>
         </div>
     </section>
+
     <section id="founders">
-    <div class="container">
-        <h2>Our Founders</h2>
-        <p class="lead">Meet the dedicated individuals who lead ISRDF's mission to create lasting social change.</p>
-        <div class="founders-grid">
-            <div class="founder-card fade-up">
-                <img src="merwin sir.jpeg" alt="Merwin Joses J" />
-                <h4>Merwin Joses J</h4>
-                <p>Founder & Chairperson</p>
-                <p class="description">A visionary social worker, community developer, and mentor, Merwin Joses J has dedicated his life to uplifting underprivileged children, youth, and communities through research-driven interventions and sustainable programs.</p>
-            </div>
-            <div class="founder-card fade-up">
-                <img src="https://images.unsplash.com/photo-154005313-94ddf0286df2?q=80&w=300&auto=format&fit=crop" alt="Founder 2" />
-                <h4>Victor Anandh </h4>
-                <p>Co-Founder & COO</p>
-                <p class="description">Jane Doe is a dedicated leader focused on program implementation and operational excellence, ensuring that ISRDF's initiatives reach those most in need.</p>
-            </div>
-            <div class="founder-card fade-up">
-                <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65b89?q=80&w=300&auto=format&fit=crop" alt="Founder 3" />
-                <h4>Theerthagiri</h4>
-                <p>Chief Program Officer</p>
-                <p class="description">John Smith oversees all of ISRDF's programs, leveraging his expertise to design impactful and sustainable projects across diverse domains, from education to environmental initiatives.</p>
+        <div class="container">
+            <h2>Our Founder</h2>
+            <p class="lead">Meet the dedicated individuals who lead ISRDF's mission to create lasting social change.</p>
+            <div class="founders-grid">
+                <div class="founder-card fade-up">
+                    <img src="merwin sir.webp" alt="Merwin Joses J" />
+                    <h4>Merwin Joses J</h4>
+                    <p>Founder & Chairperson</p>
+                    <p class="description">A visionary social worker, community developer, and mentor, Merwin Joses J has dedicated his life to uplifting underprivileged children, youth, and communities through research-driven interventions and sustainable programs.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <section id="objectives">
         <div class="container">
@@ -242,45 +252,45 @@
         </div>
     </section>
 
-    
-<section id="recognitions">
-    <div class="container">
-        <h2>Our Registrations & Recognitions</h2>
-        <p class="lead">ISRDF is a legally registered, recognized, and certified non-profit foundation ensuring transparency and credibility</p>
-        <div class="recognitions-grid">
-            <div class="recognition-card fade-up">
-                <i class="fas fa-certificate" style="font-size: 42px; color: var(--accent-2);"></i>
-                <h4>NGO DARPAN</h4>
-                <p>Registered with the Government of India NGO Darpan Portal under NITI Aayog</p>
-            </div>
-            <div class="recognition-card fade-up">
-                <i class="fas fa-file-invoice" style="font-size: 42px; color: var(--accent-2);"></i>
-                <h4>12A Certified</h4>
-                <p>Holds 12A Certification from the Income Tax Department, exempting our income from taxation</p>
-            </div>
-            <div class="recognition-card fade-up">
-                <i class="fas fa-building" style="font-size: 42px; color: var(--accent-2);"></i>
-                <h4>MSME Registration</h4>
-                <p>Registered under the Micro, Small, and Medium Enterprises (MSME) Act</p>
-            </div>
-            <div class="recognition-card fade-up">
-                <i class="fas fa-graduation-cap" style="font-size: 42px; color: var(--accent-2);"></i>
-                <h4>Thiran Digital Hub</h4>
-                <p>An academic and training unit of ISRDF focused on bridging the gap between education and industry</p>
-            </div>
-            <div class="recognition-card fade-up">
-                <i class="fas fa-hand-holding-usd" style="font-size: 42px; color: var(--accent-2);"></i>
-                <h4>Startup India</h4>
-                <p>Registered with Startup India, a flagship initiative of the Government of India to build a strong ecosystem for nurturing innovation and startups.</p>
-            </div>
-            <div class="recognition-card fade-up">
-                <i class="fas fa-chart-line" style="font-size: 42px; color: var(--accent-2);"></i>
-                <h4>Skill India</h4>
-                <p>Part of the Skill India Mission, a Government of India initiative to empower the youth with skill sets that make them more employable.</p>
+    <section id="recognitions">
+        <div class="container">
+            <h2>Our Registrations & Recognitions</h2>
+            <p class="lead">ISRDF is a legally registered, recognized, and certified non-profit foundation ensuring transparency and credibility</p>
+            <div class="recognitions-grid">
+                <div class="recognition-card fade-up">
+                    <i class="fas fa-certificate" style="font-size: 42px; color: var(--accent-2);"></i>
+                    <h4>NGO DARPAN</h4>
+                    <p>Registered with the Government of India NGO Darpan Portal under NITI Aayog</p>
+                </div>
+                <div class="recognition-card fade-up">
+                    <i class="fas fa-file-invoice" style="font-size: 42px; color: var(--accent-2);"></i>
+                    <h4>12A Certified</h4>
+                    <p>Holds 12A Certification from the Income Tax Department, exempting our income from taxation</p>
+                </div>
+                <div class="recognition-card fade-up">
+                    <i class="fas fa-building" style="font-size: 42px; color: var(--accent-2);"></i>
+                    <h4>MSME Registration</h4>
+                    <p>Registered under the Micro, Small, and Medium Enterprises (MSME) Act</p>
+                </div>
+                <div class="recognition-card fade-up">
+                    <i class="fas fa-graduation-cap" style="font-size: 42px; color: var(--accent-2);"></i>
+                    <h4>Thiran Digital Hub</h4>
+                    <p>An academic and training unit of ISRDF focused on bridging the gap between education and industry</p>
+                </div>
+                <div class="recognition-card fade-up">
+                    <i class="fas fa-hand-holding-usd" style="font-size: 42px; color: var(--accent-2);"></i>
+                    <h4>Startup India</h4>
+                    <p>Registered with Startup India, a flagship initiative of the Government of India to build a strong ecosystem for nurturing innovation and startups.</p>
+                </div>
+                <div class="recognition-card fade-up">
+                    <i class="fas fa-chart-line" style="font-size: 42px; color: var(--accent-2);"></i>
+                    <h4>Skill India</h4>
+                    <p>Part of the Skill India Mission, a Government of India initiative to empower the youth with skill sets that make them more employable.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
     <section id="testimonials">
         <div class="container">
             <h2>Our Testimonials</h2>
@@ -339,6 +349,19 @@
                 </div>
             </div>
         </div>
+        <div class="map-container fade-up">
+            <h4>Our Locations</h4>
+            <div class="map-item">
+                <h5>ISRDF Registered Office</h5>
+                <p>Krishnagiri, Tamil Nadu, India</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.973123348798!2d78.20041351071752!3d12.527622500345405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac336a5b229247%3A0xd0617cc81b0a7162!2sISRDF!5e1!3m2!1sen!2sin!4v1758734136164!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="map-item">
+                <h5>Thiran Digital (Hub) Academy</h5>
+                <p>No 18, Thirumalai Nagar, Kattinayanapalli, Krishnagiri - 635001</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.973123348798!2d78.20041351071752!3d12.527622500345405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac336a5b229247%3A0xd0617cc81b0a7162!2sISRDF!5e1!3m2!1sen!2sin!4v1758734136164!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </section>
 
     <footer>
@@ -375,15 +398,24 @@
                 </div>
             </div>
             <div class="copyright">
-                &copy; <span id="yr"></span> ISRDF India — Thiran Digital (Hub) Academy. All rights reserved.
+                © <span id="yr"></span> ISRDF India — Thiran Digital (Hub) Academy. All rights reserved.
             </div>
         </div>
     </footer>
     
     <button id="toTop" aria-label="Back to top" title="Back to top">↑</button>
 
+
+    <div class="video-player">
+  <iframe 
+    src="https://www.youtube.com/embed/neOasLBWoy0?autoplay=1&mute=1&controls=1" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+
     <script src="script.js"></script>
 </body>
-
 </html>
-
