@@ -146,3 +146,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   startAutoSlide();
 });
+
+
+// Floating video close button
+document.addEventListener("DOMContentLoaded", () => {
+  const player = document.getElementById("ytPlayer");
+  const closeBtn = document.querySelector(".close-player");
+  if (closeBtn) {
+    closeBtn.addEventListener("click", () => {
+      player.style.display = "none";
+    });
+  }
+});
+
